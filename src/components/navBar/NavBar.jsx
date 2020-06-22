@@ -11,7 +11,7 @@ function NavBar(props) {
           <i className="material-icons" onClick={() => {
             props.menuClickHandle()
           }}>{props.showNavBar ? "keyboard_arrow_right" : "keyboard_arrow_left"}</i>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/aqualab" className={styles.navLink}>
             <div className={styles.home}>a</div>
           </NavLink>
           <i className="material-icons"><a href="tel:+375293916645">call</a></i>
