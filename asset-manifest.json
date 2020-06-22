@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/aqualab/static/css/main.6eb5dfda.chunk.css",
+    "main.js": "/aqualab/static/js/main.d25f6c13.chunk.js",
+    "main.js.map": "/aqualab/static/js/main.d25f6c13.chunk.js.map",
+    "runtime-main.js": "/aqualab/static/js/runtime-main.c7073836.js",
+    "runtime-main.js.map": "/aqualab/static/js/runtime-main.c7073836.js.map",
+    "static/js/2.7791a9ce.chunk.js": "/aqualab/static/js/2.7791a9ce.chunk.js",
+    "static/js/2.7791a9ce.chunk.js.map": "/aqualab/static/js/2.7791a9ce.chunk.js.map",
+    "index.html": "/aqualab/index.html",
+    "precache-manifest.165e3a7886aa8ff2899be20e62760eda.js": "/aqualab/precache-manifest.165e3a7886aa8ff2899be20e62760eda.js",
+    "service-worker.js": "/aqualab/service-worker.js",
+    "static/css/main.6eb5dfda.chunk.css.map": "/aqualab/static/css/main.6eb5dfda.chunk.css.map",
+    "static/js/2.7791a9ce.chunk.js.LICENSE.txt": "/aqualab/static/js/2.7791a9ce.chunk.js.LICENSE.txt",
+    "static/media/instagramLogo.04f1d872.svg": "/aqualab/static/media/instagramLogo.04f1d872.svg",
+    "static/media/jeep.1bcdb101.svg": "/aqualab/static/media/jeep.1bcdb101.svg",
+    "static/media/neon.mp3": "/aqualab/static/media/neon.0e5402ee.mp3",
+    "static/media/sedan.397872c2.svg": "/aqualab/static/media/sedan.397872c2.svg",
+    "static/media/van.7579cb35.svg": "/aqualab/static/media/van.7579cb35.svg",
+    "static/media/App.module.scss": "/aqualab/static/media/wall2.3056f7fd.PNG",
+    "static/media/CallBack.module.scss": "/aqualab/static/media/wall6.c913dabe.png",
+    "static/media/Gift.module.scss": "/aqualab/static/media/wallgift.7144bb0d.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7073836.js",
+    "static/js/2.7791a9ce.chunk.js",
+    "static/css/main.6eb5dfda.chunk.css",
+    "static/js/main.d25f6c13.chunk.js"
+  ]
+}
