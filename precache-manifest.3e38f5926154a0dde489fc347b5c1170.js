@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08d5510e3404a494625d402e523a5dac",
+    "revision": "81ae818a8d65178381b3ac08e07f87f1",
     "url": "/aqualab/index.html"
   },
   {
-    "revision": "717a4e7996e3a71e2251",
-    "url": "/aqualab/static/css/main.f745e945.chunk.css"
+    "revision": "618327ac1a6f5089175b",
+    "url": "/aqualab/static/css/main.34d655a2.chunk.css"
   },
   {
     "revision": "adc8a8fde78ea09a8b9d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aqualab/static/js/2.7791a9ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "717a4e7996e3a71e2251",
-    "url": "/aqualab/static/js/main.37284520.chunk.js"
+    "revision": "618327ac1a6f5089175b",
+    "url": "/aqualab/static/js/main.4bd88fc2.chunk.js"
   },
   {
     "revision": "82cd3563378ee6bb64d7",

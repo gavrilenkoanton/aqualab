@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aqualab/static/css/main.f745e945.chunk.css",
-    "main.js": "/aqualab/static/js/main.37284520.chunk.js",
-    "main.js.map": "/aqualab/static/js/main.37284520.chunk.js.map",
+    "main.css": "/aqualab/static/css/main.34d655a2.chunk.css",
+    "main.js": "/aqualab/static/js/main.4bd88fc2.chunk.js",
+    "main.js.map": "/aqualab/static/js/main.4bd88fc2.chunk.js.map",
     "runtime-main.js": "/aqualab/static/js/runtime-main.c7073836.js",
     "runtime-main.js.map": "/aqualab/static/js/runtime-main.c7073836.js.map",
     "static/js/2.7791a9ce.chunk.js": "/aqualab/static/js/2.7791a9ce.chunk.js",
     "static/js/2.7791a9ce.chunk.js.map": "/aqualab/static/js/2.7791a9ce.chunk.js.map",
     "index.html": "/aqualab/index.html",
-    "precache-manifest.0bd33c19d2a6bf5e55c6bf8401c3baed.js": "/aqualab/precache-manifest.0bd33c19d2a6bf5e55c6bf8401c3baed.js",
+    "precache-manifest.3e38f5926154a0dde489fc347b5c1170.js": "/aqualab/precache-manifest.3e38f5926154a0dde489fc347b5c1170.js",
     "service-worker.js": "/aqualab/service-worker.js",
-    "static/css/main.f745e945.chunk.css.map": "/aqualab/static/css/main.f745e945.chunk.css.map",
+    "static/css/main.34d655a2.chunk.css.map": "/aqualab/static/css/main.34d655a2.chunk.css.map",
     "static/js/2.7791a9ce.chunk.js.LICENSE.txt": "/aqualab/static/js/2.7791a9ce.chunk.js.LICENSE.txt",
     "static/media/instagramLogo.04f1d872.svg": "/aqualab/static/media/instagramLogo.04f1d872.svg",
     "static/media/jeep.1bcdb101.svg": "/aqualab/static/media/jeep.1bcdb101.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.c7073836.js",
     "static/js/2.7791a9ce.chunk.js",
-    "static/css/main.f745e945.chunk.css",
-    "static/js/main.37284520.chunk.js"
+    "static/css/main.34d655a2.chunk.css",
+    "static/js/main.4bd88fc2.chunk.js"
   ]
 }
