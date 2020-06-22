@@ -43,10 +43,11 @@ class App extends React.Component {
             logoNeon={this.state.logoNeon}
           />
           <Route path='/' exact render={() => <HomePage logoNeon={this.state.logoNeon}/>}/>
-          <Route path='/price' exact render={() => <Price/>}/>
-          <Route path='/callback' exact render={() => <CallBack/>}/>
-          <Route path='/gift' exact render={() => <Gift/>}/>
-          <Route path='/map' exact render={() => <MapComponent/>}/>
+          <Route path='/aqualab' render={() => <HomePage logoNeon={this.state.logoNeon}/>}/>
+          <Route path='/price' render={() => <Price/>}/>
+          <Route path='/callback' render={() => <CallBack/>}/>
+          <Route path='/gift' render={() => <Gift/>}/>
+          <Route path='/map' render={() => <MapComponent/>}/>
 
         </div>
       </BrowserRouter>
