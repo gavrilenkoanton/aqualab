@@ -1,0 +1,169 @@
+@import './src/scss/variables';
+
+.navLink{
+  text-decoration: none;
+}
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: $navBar-width;
+  //border-right: 1px solid rgba(229, 229, 229, 0.8);
+  z-index: 1;
+  background-color: black;
+}
+
+.navBar__upperBlock {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 450px;
+  //border-bottom: 1px solid red;
+  justify-content: space-between;
+}
+
+.navBar__upperBlock i {
+  padding-left: 15px;
+  color: $icon-color;
+  font-size: 32px;
+}
+.navBar__upperBlock i a {
+ text-decoration: none;
+  color: $icon-color;
+}
+.navBar__upperBlock i a:hover {
+  text-decoration: none;
+  color: $icon-color-hover;
+}
+.home {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  color: #0d42cb;
+  padding-left: 15px;
+  font-size: 43px;
+}
+
+.home:hover {
+  cursor: pointer;
+  color: #005eff;
+}
+
+.navBar__upperBlock i:hover {
+  color: $icon-color-hover;
+  cursor: pointer;
+  //font-size: 35px;
+}
+
+.navBar__lowerBlock {
+  height: 60px;
+  width: 100%;
+  //box-sizing: border-box;
+  //border-top: 1px solid red;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toggle {
+  position: absolute;
+  bottom: 34px;
+  left: 17px;
+  color: #005eff;
+  font-size: 24px;
+}
+
+.instagramIcon {
+  position: absolute;
+  bottom: 80px;
+  padding-left: 15px;
+  height: 30px;
+  width: 30px;
+}
+
+.instagramIcon:hover {
+  height: 32px;
+  width: 32px;
+}
+
+.instagramIcon path {
+  fill: $icon-color;
+}
+
+.instagramIcon:hover path {
+  fill: $icon-color-hover;
+  cursor: pointer;
+}
+
+.copyRights {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  display: flex;
+  padding: 0 0 0 22px;
+
+}
+
+.copyRights i {
+  font-size: 14px;
+  color: $icon-color
+}
+
+.navBarExtension {
+  height: 100vh;
+  border-right: 1px solid $icon-color;
+  width: 207px;
+  position: absolute;
+  font-size: 14px;
+  color: white;
+  top: 0;
+  left: 6px;
+  background-color: black;
+  z-index: 0;
+  transition: 0.8s;
+}
+
+.navBarExtensionHide {
+  transform: translateX(-64%);
+}
+
+.navBarExtension__upperBlock {
+  padding: 30px 0 27px 80px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  //border-bottom: 1px solid red;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.navBarExtension__lowerBlock {
+  height: 60px;
+  width: 100%;
+  //border-top: 1px solid red;
+  position: absolute;
+  bottom: 23px;
+  padding: 20px 0 20px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.neon {
+  color: #0d42cb;
+}
+
+.navBarExtension__copyRights {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 7px 80px;
+  font-size: 10px;
+}

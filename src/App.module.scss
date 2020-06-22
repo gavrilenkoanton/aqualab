@@ -1,0 +1,32 @@
+@import './src/scss/variables';
+
+//.app{
+//  background: url("./../src/img/wall2.PNG");
+//  background-size: cover;
+//  height: 100vh;
+//  width: 100vw;
+//  position: relative;
+//}
+.appDark {
+  //background-color: black;
+  background: url("./../src/img/wall2.PNG");
+  //background: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  //z-index: -2;
+  //opacity: 20%;
+  //transition: background 3s ease;
+}
+
+.appDark::after {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -3;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: block;
+  transition: background 3s;
+}

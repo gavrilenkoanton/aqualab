@@ -1,0 +1,169 @@
+@import './src/scss/variables';
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: url("./../../img/wall6.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.textDescription {
+  color: rgba(245, 245, 245, 0.95);
+  font-size: 1.3rem;
+}
+
+.container {
+  //display: flex;
+  //justify-content: center;
+  //position: absolute;
+  //top: 50px;
+  //left: 300px;
+  width: 600px;
+  background: transparent;
+}
+
+.colorAccent{
+  margin: 0 10px;
+  color: #005eff;
+}
+
+.text {
+  margin: 20px 0;
+}
+
+.formSize {
+  width: 100%;
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sendData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sendData input {
+  width: 40%;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  font-family: Comfortaa;
+  border-bottom: 1px solid white;
+  outline: none;
+  padding: 0 15px;
+  color: white;
+
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+}
+
+.messages textarea {
+  margin: 10px 0 0 0;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  overflow: hidden;
+  font-family: Comfortaa;
+  border-bottom: 1px solid white;
+  outline: none;
+  padding: 0 15px;
+  color: white;
+}
+
+.button {
+  margin: 50px 0 0 0;
+  align-self: center;
+}
+
+.buttonSubmit {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.btn {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+//.a {
+//  font-family: Comfortaa;
+//  color: #005eff;
+//  font-size: 15px;
+//}
+.btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-family: Comfortaa;
+}
+.btn:before,
+.btn:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #ffffff;
+}
+.btn:before {
+  right: 0;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.btn:after {
+  left: 0;
+  bottom: 0;
+  transition: all 0.1s 0.2s ease;
+}
+.btn:hover:before {
+  transition: all 0.1s 0.2s ease;
+  height: 100%;
+}
+.btn:hover:after {
+  transition: all 0.1s ease;
+  height: 100%;
+}
+.btn span:before,
+.btn span:after {
+  position: absolute;
+  content: "";
+  background: #ffffff;
+}
+.btn span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 0.1s 0.1s ease;
+}
+.btn span:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+}
+.btn span:hover:before {
+  width: 100%;
+}

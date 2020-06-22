@@ -1,0 +1,61 @@
+@import './src/scss/variables';
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: url("./../../img/wallgift.PNG");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  color: white;
+}
+.serf{
+  height: 260px;
+  width: 600px;
+  border: 1px solid #171717;
+  background: #0e0e0e;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+.aqualab{
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  font-size: 20px;
+  color: #005eff;
+}
+.studio{
+  position: absolute;
+  top: 23px;
+  left: 11px;
+  font-size: 8px;
+}
+.text{
+  height: 400px;
+  width: 700px;
+  //border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.text div{
+  margin: 20px 0;
+}
+.tel{
+  //text-decoration: none;
+  color: white;
+}
+.textColor{
+  color: #005eff;
+  margin: 0 7px;
+  font-size: 1.1rem;
+}
+.textColor2{
+  color: #005eff;
+  margin: 0 7px;
+  font-size: 1.3rem;
+}

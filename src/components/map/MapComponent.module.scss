@@ -1,0 +1,29 @@
+@import './src/scss/variables';
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.map {
+  height: 500px;
+  width: 400px;
+}
+.mapDescription{
+  color: white;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+.adress{
+  color: #005eff;
+  margin-right: 20px ;
+}
+.mapSize{
+  height: 500px;
+  width: 900px;
+  filter: grayscale(100%);
+}
