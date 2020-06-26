@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aqualab/precache-manifest.3e38f5926154a0dde489fc347b5c1170.js"
+  "/aqualab/precache-manifest.3728d921665d753ec02a0b953b3ac6ac.js"
 );
 
 self.addEventListener('message', (event) => {
