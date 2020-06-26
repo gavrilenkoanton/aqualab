@@ -43,7 +43,7 @@ function NavBar(props) {
           <div>Главная</div>
           <div>Позвонить</div>
           <div>Перезвонить</div>
-          <div>Прайс</div>
+          <div>Price</div>
           <div>Плати онлайн</div>
           <div>Сертификат</div>
           <div>Карта</div>
